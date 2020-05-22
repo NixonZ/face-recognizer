@@ -16,7 +16,6 @@ socketio = SocketIO(app,cors_allowed_origins="*")
 
 
 recognModel = 'nn-models/openface.nn4.small2.v1.t7'
-\
 netRecogn = cv2.dnn.readNetFromTorch(recognModel)
 
 def detectFace(img):
